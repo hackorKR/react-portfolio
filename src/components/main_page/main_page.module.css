@@ -7,9 +7,16 @@
   background-image: url(C:\Users\hacko\Desktop\GitHub\react-portfolio\src\components\main_page\main_image2.png);
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .title {
+  color: white;
+  align-self: center;
+  font-size: 4vw;
+}
+
+.description {
   color: white;
   align-self: center;
   font-size: 4vw;

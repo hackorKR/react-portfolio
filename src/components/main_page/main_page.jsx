@@ -1,16 +1,24 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './main_page.module.css';
+import Typical from 'react-typical';
 
 const MainPage = (props) => {
-  const titleRef = useRef();
-  const [title, setTitle] = useState('Front_End Developer Hackor');
-
-  useEffect(() => {});
-
   return (
     <div className={styles.container} id='m'>
-      <h1 ref={titleRef} className={styles.title}>
-        {title}
+      <h1 className={styles.title}>Hi, I'm Hackor</h1>
+      <h1 className={styles.description}>
+        <Typical
+          steps={[
+            "I'm Front End Developer",
+            2000,
+            "I'm Designer",
+            2000,
+            "I'm Coder",
+            2000,
+          ]}
+          loop={Infinity}
+          wrapper='b'
+        />
       </h1>
     </div>
   );
