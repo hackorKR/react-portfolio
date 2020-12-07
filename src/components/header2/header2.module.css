@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  width: 95vw;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 1;
+}
+
+.buttons {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 0 1.6rem 1.6rem;
+  list-style: none;
+}
+
+.nav_button {
+  margin: 1.2rem 3rem 1.2rem 3rem;
+  font-size: 1.1rem;
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+.nav_button:hover {
+  color: white;
+  cursor: pointer;
+}

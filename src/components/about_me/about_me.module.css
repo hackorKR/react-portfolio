@@ -1,0 +1,31 @@
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+}
+
+.title {
+  font-size: 2.4rem;
+  flex: 2;
+  text-align: center;
+  align-self: center;
+  margin-left: 4vw;
+  margin-right: 8vw;
+}
+
+.content {
+  align-self: center;
+  flex: 8;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 10vw;
+}
+
+.content_title {
+  font-size: 2rem;
+}
