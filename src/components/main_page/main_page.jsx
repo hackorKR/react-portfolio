@@ -5,16 +5,20 @@ import Typical from 'react-typical';
 const MainPage = (props) => {
   return (
     <div className={styles.container} id='m'>
-      <h1 className={styles.title}>Hi, I'm Hackor</h1>
+      <h1 className={styles.title}>Hi! I'm Hackor</h1>
       <h1 className={styles.description}>
         <Typical
           steps={[
+            "I'm Software Developer",
+            1500,
             "I'm Front End Developer",
-            2000,
-            "I'm Designer",
-            2000,
-            "I'm Coder",
-            2000,
+            1500,
+            "I'm Machine Learning Developer",
+            1500,
+            'I use Javscript',
+            1500,
+            'I use Python',
+            1500,
           ]}
           loop={Infinity}
           wrapper='b'
